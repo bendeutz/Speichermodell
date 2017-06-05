@@ -35,4 +35,8 @@ public class Variable {
     public String toString() {
         return this.getName();
     }
+
+    public void changeValue(String value) {
+        this.value = value;
+    }
 }

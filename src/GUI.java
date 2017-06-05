@@ -91,7 +91,6 @@ public class GUI {
 
     public boolean initiateVariable(String type, String name) {
         Variable variable = new Variable(type, name, null);
-        System.out.println(Arrays.toString(allVariables.toArray()));
         if(allVariables.contains(variable)) {
             return false;
         } else {
@@ -121,5 +120,17 @@ public class GUI {
 
     public ArrayList<Variable> getVariables() {
         return allVariables;
+    }
+
+    public boolean changeVariable(String name, String value) {
+        for (Variable allVariable : allVariables) {
+            if(allVariable.getName().equals(name)) {
+                //Variablentypen usw. checken
+                allVariable.changeValue(value);
+                updateUI();
+                return true;
+            }
+        }
+        return false;
     }
 }

@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
@@ -25,7 +27,31 @@ public class VariableChangeGUI {
             public void windowClosing(WindowEvent e) {
                 gui.setButton(true);
                 textField1.setText("");
-                comboBox1.setSelectedIndex(0);
+                if(comboBox1.getItemCount() > 0)
+                    comboBox1.setSelectedIndex(0);
+            }
+        });
+        bestätigenButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(comboBox1.getItemCount()==0) {
+                    JOptionPane.showMessageDialog(mainFrame,
+                            "Es sind keine Variablen im Speicher.",
+                            "Missing variable",
+                            JOptionPane.ERROR_MESSAGE);
+                } else {
+                    if(textField1.getText().length() == 0) {
+                        JOptionPane.showMessageDialog(mainFrame,
+                                "Bitte gib einen Wert an.",
+                                "Missing value",
+                                JOptionPane.ERROR_MESSAGE);
+                    } else {
+                        if(gui.changeVariable((String)comboBox1.getSelectedItem(), textField1.getText())) {
+                            mainFrame.setVisible(false);
+                            gui.setButton(true);
+                        }
+                    }
+                }
             }
         });
     }
