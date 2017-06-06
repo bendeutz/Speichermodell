@@ -28,10 +28,15 @@ public class GUI {
     private JLabel valueFour;
     private JLabel valueFive;
     private JButton speicherBearbeitenButton;
+    private JButton bildschirmanzeigeÄndernButton;
+    private JButton zufallszahlGenerierenButton;
+    private JTextArea screen;
     private ArrayList<Variable> allVariables;
     private ArrayList<JLabel> allTypes;
     private ArrayList<JLabel> allNames;
     private ArrayList<JLabel> allValues;
+    private ScreenChangeGUI screenChangeGUI;
+    private RandomValueGUI randomValueGUI;
 
     public GUI() {
         mainPanel.setPreferredSize(new Dimension(600, 600));
@@ -57,6 +62,8 @@ public class GUI {
         allValues.add(valueFour);
         allValues.add(valueFive);
 
+        screenChangeGUI = new ScreenChangeGUI(this);
+        randomValueGUI = new RandomValueGUI(this);
         speicherBearbeitenButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -64,10 +71,22 @@ public class GUI {
             }
         });
 
+        bildschirmanzeigeÄndernButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                screenChangeGUI.start();
+            }
+        });
+        zufallszahlGenerierenButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                randomValueGUI.start();
+            }
+        });
     }
 
     public void start() {
-        mainFrame = new JFrame("Speichermodell");
+        mainFrame = new JFrame("Programmierspiel");
         mainFrame.setResizable(false);
         mainFrame.setContentPane(this.mainPanel);
         mainFrame.setVisible(true);
@@ -163,5 +182,18 @@ public class GUI {
             }
         }
         return false;
+    }
+
+    public void setScreen(String text) {
+        this.screen.setText(this.screen.getText() + "\n " + text);
+    }
+
+    public String getValueOf(String name) {
+        for (Variable allVariable : allVariables) {
+            if(allVariable.getName().equals(name)) {
+                return allVariable.getValue();
+            }
+        }
+        return "";
     }
 }
