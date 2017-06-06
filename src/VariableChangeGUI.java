@@ -49,6 +49,13 @@ public class VariableChangeGUI {
                         if(gui.changeVariable((String)comboBox1.getSelectedItem(), textField1.getText())) {
                             mainFrame.setVisible(false);
                             gui.setButton(true);
+                            textField1.setText("");
+                            comboBox1.setSelectedIndex(0);
+                        } else {
+                            JOptionPane.showMessageDialog(mainFrame,
+                                    "Der eingegebene Wert passt nicht für diesen Variablentyp.",
+                                    "Wrong value",
+                                    JOptionPane.ERROR_MESSAGE);
                         }
                     }
                 }

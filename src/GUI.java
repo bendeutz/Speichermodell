@@ -77,17 +77,6 @@ public class GUI {
         workgui = new WorkGUI(this);
     }
 
-//    public static void main(String... args) {
-//        mainFrame = new JFrame("Speichermodell");
-//        mainFrame.setResizable(false);
-//        gui = new GUI();
-//        mainFrame.setContentPane(gui.mainPanel);
-//        mainFrame.setVisible(true);
-//        mainFrame.pack();
-//        mainFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-//        mainFrame.setLocationRelativeTo(null);
-//        workgui = new WorkGUI();
-//    }
 
     public boolean initiateVariable(String type, String name) {
         Variable variable = new Variable(type, name, null);
@@ -100,12 +89,30 @@ public class GUI {
         }
     }
 
-    private void updateUI() {
+    private void updateUI() { //anderes Aussehen von int, double, String und char
         for (int i = 0; i < 5; i++) {
             if(allVariables.size() > i) {
+                switch(allVariables.get(i).getType()) {
+                    case "String":
+                        if(allVariables.get(i).getValue() != null)
+                            allValues.get(i).setText("\"" + allVariables.get(i).getValue() + "\"");
+                        break;
+                    case "char":
+                        if(allVariables.get(i).getValue() != null)
+                            allValues.get(i).setText("'" + allVariables.get(i).getValue() + "'");
+                        break;
+                    case "double":
+                        if(allVariables.get(i).getValue()!=null) {
+                            double d = Double.parseDouble(allVariables.get(i).getValue());
+                            allValues.get(i).setText(Double.toString(d));
+                        }
+                        break;
+                    case "int":
+                        allValues.get(i).setText(allVariables.get(i).getValue());
+
+                }
                 allTypes.get(i).setText(allVariables.get(i).getType());
                 allNames.get(i).setText(allVariables.get(i).getName());
-                allValues.get(i).setText(allVariables.get(i).getValue());
             }
         }
     }
@@ -125,7 +132,31 @@ public class GUI {
     public boolean changeVariable(String name, String value) {
         for (Variable allVariable : allVariables) {
             if(allVariable.getName().equals(name)) {
-                //Variablentypen usw. checken
+                switch(allVariable.getType()) {
+                    case "int":
+                        try{
+                            Integer.parseInt(value);
+                        } catch(NumberFormatException e) {
+                            return false;
+                        }
+                        break;
+                    case "double":
+                        try{
+                            Double.parseDouble(value);
+                        } catch(NumberFormatException e) {
+                            return false;
+                        }
+                        break;
+                    case "String":
+                        break;
+                    case "char":
+                        if(value != null) {
+                            if(value.length()!=1) {
+                                return false;
+                            }
+                        }
+                        break;
+                }
                 allVariable.changeValue(value);
                 updateUI();
                 return true;
