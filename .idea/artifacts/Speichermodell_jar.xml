@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Speichermodell:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Speichermodell_jar</output-path>
+    <root id="archive" name="Speichermodell.jar">
+      <element id="module-output" name="Speichermodell" />
+    </root>
+  </artifact>
+</component>
