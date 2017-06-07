@@ -35,8 +35,9 @@ public class RandomValueGUI {
                 try {
                     int min = Integer.parseInt(textField1.getText());
                     int max = Integer.parseInt(textField2.getText());
-                    if(max - min > 0) {
-                        int random = (int) (Math.random() * (max-min+1));
+                    int diff = max-min;
+                    if(diff > 0) {
+                        int random = (int) (Math.random() * (diff+1))  + min;
                         randomLabel.setText(Integer.toString(random));
                     } else {
                         throw new NumberFormatException();
