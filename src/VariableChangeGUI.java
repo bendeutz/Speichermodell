@@ -61,6 +61,7 @@ public class VariableChangeGUI {
                 }
             }
         });
+        mainFrame.getRootPane().setDefaultButton(bestätigenButton);
     }
 
     public void start(){
