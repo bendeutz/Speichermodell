@@ -18,7 +18,7 @@ public class RandomValueGUI {
     public RandomValueGUI(GUI gui) {
         this.gui = gui;
         this.mainFrame = new JFrame();
-        panel.setPreferredSize(new Dimension(450,200));
+        panel.setPreferredSize(new Dimension(550,200));
         mainFrame.setContentPane(panel);
         mainFrame.pack();
         mainFrame.setLocationRelativeTo(gui.getFrame());
@@ -35,7 +35,11 @@ public class RandomValueGUI {
                     int diff = max-min;
                     if(diff > 0) {
                         int random = (int) (Math.random() * (diff+1))  + min;
-                        randomLabel.setText(Integer.toString(random));
+                        JOptionPane.showMessageDialog(mainFrame,
+                                "Die Zufallszahl lautet: " + random,
+                                "Die Zufallszahl",
+                                JOptionPane.INFORMATION_MESSAGE);
+                        mainFrame.setVisible(false);
                     } else {
                         throw new NumberFormatException();
                     }

@@ -3,7 +3,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Created by ben on 31.05.2017.
@@ -27,16 +26,19 @@ public class GUI {
     private JLabel valueThree;
     private JLabel valueFour;
     private JLabel valueFive;
-    private JButton speicherBearbeitenButton;
+    private JButton variableInitialisieren;
     private JButton bildschirmanzeigeÄndernButton;
     private JButton zufallszahlGenerierenButton;
     private JTextArea screen;
+    private JButton variableChangeButton;
     private ArrayList<Variable> allVariables;
     private ArrayList<JLabel> allTypes;
     private ArrayList<JLabel> allNames;
     private ArrayList<JLabel> allValues;
     private ScreenChangeGUI screenChangeGUI;
     private RandomValueGUI randomValueGUI;
+    private VariableChangeGUI variableChangeGUI;
+    private VariableInitiateGUI variableInitiateGUI;
 
     public GUI() {
         mainPanel.setPreferredSize(new Dimension(600, 600));
@@ -64,12 +66,22 @@ public class GUI {
 
         screenChangeGUI = new ScreenChangeGUI(this);
         randomValueGUI = new RandomValueGUI(this);
-        speicherBearbeitenButton.addActionListener(new ActionListener() {
+        variableChangeGUI = new VariableChangeGUI(this);
+        variableInitiateGUI = new VariableInitiateGUI(this);
+        variableInitialisieren.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                workgui.start();
+                variableInitiateGUI.start();
             }
         });
+
+        variableChangeButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                variableChangeGUI.start();
+            }
+        }
+        );
 
         bildschirmanzeigeÄndernButton.addActionListener(new ActionListener() {
             @Override
@@ -141,7 +153,7 @@ public class GUI {
     }
 
     public void setButton(boolean button) {
-        speicherBearbeitenButton.setEnabled(button);
+        variableInitialisieren.setEnabled(button);
     }
 
     public ArrayList<Variable> getVariables() {

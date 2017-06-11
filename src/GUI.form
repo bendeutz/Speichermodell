@@ -235,7 +235,7 @@
           </component>
         </children>
       </grid>
-      <grid id="844f4" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+      <grid id="844f4" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -243,30 +243,22 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="4bd9" class="javax.swing.JButton" binding="speicherBearbeitenButton" default-binding="true">
+          <component id="4bd9" class="javax.swing.JButton" binding="variableInitialisieren">
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="300" height="-1"/>
               </grid>
             </constraints>
             <properties>
-              <text value="Variablen initialisieren oder verändern"/>
+              <text value="Variable initialisieren"/>
             </properties>
           </component>
           <component id="4a2c0" class="javax.swing.JButton" binding="bildschirmanzeigeÄndernButton" default-binding="true">
             <constraints>
-              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <text value="Bildschirmausgabe erstellen"/>
-            </properties>
-          </component>
-          <component id="c0c01" class="javax.swing.JButton" binding="zufallszahlGenerierenButton" default-binding="true">
-            <constraints>
-              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <text value="Zufallszahl generieren"/>
             </properties>
           </component>
           <component id="f0432" class="javax.swing.JSeparator">
@@ -274,6 +266,22 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties/>
+          </component>
+          <component id="1247d" class="javax.swing.JButton" binding="variableChangeButton">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Einer Variable einen Wert zuweisen"/>
+            </properties>
+          </component>
+          <component id="c0c01" class="javax.swing.JButton" binding="zufallszahlGenerierenButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Zufallszahl generieren"/>
+            </properties>
           </component>
         </children>
       </grid>

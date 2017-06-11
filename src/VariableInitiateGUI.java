@@ -16,7 +16,7 @@ public class VariableInitiateGUI {
 
     public VariableInitiateGUI(GUI gui) {
         this.gui = gui;
-        mainFrame = new JFrame("Variable initialisieren");
+        mainFrame = new JFrame("Variable initialisieren.");
         comboBox1.addItem("int");
         comboBox1.addItem("double");
         comboBox1.addItem("String");
