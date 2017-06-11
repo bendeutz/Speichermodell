@@ -6,16 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6afa9559-fbb7-4e78-bced-d3252b56c8d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI.form" afterPath="$PROJECT_DIR$/src/GUI.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI.java" afterPath="$PROJECT_DIR$/src/GUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RandomValueGUI.java" afterPath="$PROJECT_DIR$/src/RandomValueGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ScreenChangeGUI.java" afterPath="$PROJECT_DIR$/src/ScreenChangeGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VariableChangeGUI.form" afterPath="$PROJECT_DIR$/src/VariableChangeGUI.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VariableChangeGUI.java" afterPath="$PROJECT_DIR$/src/VariableChangeGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VariableInitiateGUI.form" afterPath="$PROJECT_DIR$/src/VariableInitiateGUI.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VariableInitiateGUI.java" afterPath="$PROJECT_DIR$/src/VariableInitiateGUI.java" />
-    </list>
+    <list default="true" id="6afa9559-fbb7-4e78-bced-d3252b56c8d9" name="Default" comment="" />
     <ignored path="Speichermodell.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -67,7 +58,7 @@
       <file leaf-file-name="ScreenChangeGUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ScreenChangeGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6164383">
+            <state vertical-scroll-proportion="0.7922535">
               <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding />
             </state>
@@ -146,7 +137,7 @@
     <option name="x" value="-4" />
     <option name="y" value="31" />
     <option name="width" value="1374" />
-    <option name="height" value="700" />
+    <option name="height" value="619" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -792,15 +783,15 @@
       <workItem from="1496898389000" duration="191000" />
       <workItem from="1496898723424" duration="30000" />
       <workItem from="1496898798089" duration="803000" />
-      <workItem from="1497207414456" duration="2139000" />
+      <workItem from="1497207414456" duration="2751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46484000" />
+    <option name="totallyTimeSpent" value="47096000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="31" width="1374" height="700" extended-state="6" />
+    <frame x="-4" y="31" width="1374" height="619" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -810,7 +801,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32646048" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37924153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1217,7 +1208,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ScreenChangeGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6164383">
+        <state vertical-scroll-proportion="0.7922535">
           <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding />
         </state>
