@@ -98,7 +98,7 @@ public class GUI {
     }
 
     public void start() {
-        mainFrame = new JFrame("Programmierspiel");
+        mainFrame = new JFrame("Programmierspiel - Phase 2 - Nachempfinden, wie ein Computer arbeitet.");
         mainFrame.setResizable(false);
         mainFrame.setContentPane(this.mainPanel);
         mainFrame.setVisible(true);

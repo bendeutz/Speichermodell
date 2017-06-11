@@ -16,12 +16,12 @@ public class VariableInitiateGUI {
 
     public VariableInitiateGUI(GUI gui) {
         this.gui = gui;
-        mainFrame = new JFrame("Variable initialisieren.");
+        mainFrame = new JFrame("Eine Variable initialisieren.");
         comboBox1.addItem("int");
         comboBox1.addItem("double");
         comboBox1.addItem("String");
         comboBox1.addItem("char");
-        panel1.setPreferredSize(new Dimension(250,200));
+        panel1.setPreferredSize(new Dimension(320,200));
         mainFrame.setContentPane(panel1);
         mainFrame.pack();
         mainFrame.setLocationRelativeTo(gui.getFrame());

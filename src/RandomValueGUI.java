@@ -17,7 +17,7 @@ public class RandomValueGUI {
 
     public RandomValueGUI(GUI gui) {
         this.gui = gui;
-        this.mainFrame = new JFrame();
+        this.mainFrame = new JFrame("Eine Zufallszahl generieren.");
         panel.setPreferredSize(new Dimension(550,200));
         mainFrame.setContentPane(panel);
         mainFrame.pack();

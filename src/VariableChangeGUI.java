@@ -19,7 +19,7 @@ public class VariableChangeGUI {
     public VariableChangeGUI(GUI gui) {
         this.gui = gui;
         this.mainFrame = new JFrame("Einer Variable einen Wert zuweisen.");
-        panel.setPreferredSize(new Dimension(250,200));
+        panel.setPreferredSize(new Dimension(420,200));
         mainFrame.setContentPane(panel);
         mainFrame.pack();
         mainFrame.setLocationRelativeTo(gui.getFrame());

@@ -10,8 +10,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI.form" afterPath="$PROJECT_DIR$/src/GUI.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI.java" afterPath="$PROJECT_DIR$/src/GUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RandomValueGUI.java" afterPath="$PROJECT_DIR$/src/RandomValueGUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ScreenChangeGUI.java" afterPath="$PROJECT_DIR$/src/ScreenChangeGUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VariableChangeGUI.form" afterPath="$PROJECT_DIR$/src/VariableChangeGUI.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VariableChangeGUI.java" afterPath="$PROJECT_DIR$/src/VariableChangeGUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VariableInitiateGUI.form" afterPath="$PROJECT_DIR$/src/VariableInitiateGUI.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VariableInitiateGUI.java" afterPath="$PROJECT_DIR$/src/VariableInitiateGUI.java" />
     </list>
     <ignored path="Speichermodell.iws" />
@@ -35,15 +37,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GUI.java">
+      <file leaf-file-name="VariableInitiateGUI.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VariableInitiateGUI.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VariableChangeGUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VariableChangeGUI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
-              <folding>
-                <element signature="e#2644#2645#0" expanded="true" />
-                <element signature="e#2701#2702#0" expanded="true" />
-              </folding>
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VariableInitiateGUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VariableInitiateGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScreenChangeGUI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ScreenChangeGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6164383">
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,17 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VariableChangeGUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VariableChangeGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VariableChangeGUI.form" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VariableChangeGUI.form" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VariableChangeGUI.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
@@ -109,14 +125,15 @@
         <option value="$PROJECT_DIR$/src/Variable.java" />
         <option value="/usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Integer.java" />
         <option value="$PROJECT_DIR$/src/ScreenChangeGUI.form" />
-        <option value="$PROJECT_DIR$/src/ScreenChangeGUI.java" />
         <option value="$PROJECT_DIR$/src/RandomValueGUI.form" />
-        <option value="$PROJECT_DIR$/src/GUI.java" />
-        <option value="$PROJECT_DIR$/src/VariableInitiateGUI.java" />
-        <option value="$PROJECT_DIR$/src/RandomValueGUI.java" />
-        <option value="$PROJECT_DIR$/src/VariableChangeGUI.java" />
         <option value="$PROJECT_DIR$/src/GUI.form" />
+        <option value="$PROJECT_DIR$/src/RandomValueGUI.java" />
+        <option value="$PROJECT_DIR$/src/GUI.java" />
+        <option value="$PROJECT_DIR$/src/VariableInitiateGUI.form" />
         <option value="$PROJECT_DIR$/src/VariableChangeGUI.form" />
+        <option value="$PROJECT_DIR$/src/VariableChangeGUI.java" />
+        <option value="$PROJECT_DIR$/src/VariableInitiateGUI.java" />
+        <option value="$PROJECT_DIR$/src/ScreenChangeGUI.java" />
       </list>
     </option>
   </component>
@@ -223,6 +240,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="VariableChangeGUI" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Speichermodell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Speichermodell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScreenChangeGUI" />
               <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -757,12 +792,12 @@
       <workItem from="1496898389000" duration="191000" />
       <workItem from="1496898723424" duration="30000" />
       <workItem from="1496898798089" duration="803000" />
-      <workItem from="1497207414456" duration="1423000" />
+      <workItem from="1497207414456" duration="2139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45768000" />
+    <option name="totallyTimeSpent" value="46484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="31" width="1374" height="700" extended-state="6" />
@@ -775,7 +810,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32646048" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32646048" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1099,35 +1134,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ScreenChangeGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ScreenChangeGUI.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RandomValueGUI.form">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="ui-designer">
+      <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VariableInitiateGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53424656">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.5753425">
+          <caret line="100" column="102" selection-start-line="100" selection-start-column="102" selection-end-line="100" selection-end-column="102" />
+          <folding>
+            <element signature="e#2644#2645#0" expanded="true" />
+            <element signature="e#2701#2702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RandomValueGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5753425">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VariableChangeGUI.form">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VariableInitiateGUI.form">
@@ -1140,30 +1189,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RandomValueGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/VariableChangeGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI.java">
+    <entry file="file://$PROJECT_DIR$/src/VariableInitiateGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
-          <folding>
-            <element signature="e#2644#2645#0" expanded="true" />
-            <element signature="e#2701#2702#0" expanded="true" />
-          </folding>
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,14 +1215,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VariableChangeGUI.form">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/src/ScreenChangeGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6164383">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
       </provider>
     </entry>
   </component>
