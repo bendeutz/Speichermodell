@@ -20,7 +20,7 @@ public class ScreenChangeGUI {
     public ScreenChangeGUI(GUI gui) {
         this.gui = gui;
         this.mainFrame = new JFrame("Eine Bildschirmausgabe erstellen.");
-        panel.setPreferredSize(new Dimension(480,200));
+        panel.setPreferredSize(new Dimension(640,200));
         mainFrame.setContentPane(panel);
         mainFrame.pack();
         mainFrame.setLocationRelativeTo(gui.getFrame());
